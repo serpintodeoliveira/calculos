@@ -8,5 +8,13 @@ namespace Calculos
 {
     class Aritmetica
     {
+        public int Somar(int x, int y)
+        {
+            return x + y;
+        }
+        public int Subrair(int x, int y)
+        {
+            return x - y;
+        }
     }
 }

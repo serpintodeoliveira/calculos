@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculos
 {
-    class Aritmetica
+    internal static class Aritmetica
     {
         /// <summary>
         /// Tipo de conversao de temperatura a executar.    
@@ -20,18 +20,18 @@ namespace Calculos
         /// <summary>
         /// Operação Soma.
         /// <returns>Retorna a soma de 2 numeros</returns>
-        public int Somar(int x, int y)
+        public static int Somar(int x, int y)
         {
             return x + y;
         }
         /// <summary>
         /// Operação de Subtração.
         /// <returns>Retorna o resultado da subtração de 2 numeros</returns>
-        public int Subrair(int x, int y)
+        public static int Subrair(int x, int y)
         {
             return x - y;
         }
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if(conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
